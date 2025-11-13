@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">🌦️ Weather App</h1>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="city-input"
+          placeholder="Enter city name"
+          autocomplete="off"
+        />
+        <button id="search-button">Search</button>
+      </div>
+
+      <div class="weather-card">
+        <h2 id="city-name">City, Region - Country</h2>
+        <p id="city-time">Local Time</p>
+        <h3 id="city-temp">-- °C</h3>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
